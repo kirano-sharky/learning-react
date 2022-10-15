@@ -1,0 +1,11 @@
+.LogoSearch-標志搜尋 {
+   display: flex;
+   gap: 0.75rem; 
+}
+
+.Search-搜尋 {
+    display: flex;
+    background: var(--inputColor);
+    border-radius: 10px;
+    padding: 5px;
+}
