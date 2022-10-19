@@ -1,7 +1,7 @@
 import React from 'react'
 import './FollowerCard跟隨者卡.css'
-
 import { Follower跟隨者 } from '../../Data/followersData'
+
 const FollowerCard跟隨者卡 = () => {
   return (
     <div className="FollowerCard-跟隨者卡">
@@ -14,10 +14,10 @@ const FollowerCard跟隨者卡 = () => {
                         <img src={follower.img} alt='' className='FollowerImg-跟隨者圖片'/>
                         <div className="name名字">
                             <span>{follower.名字}</span>
-                            <span>{follower.用戶名稱}</span>
+                            <span>@{follower.用戶名稱}</span>
                         </div>
                     </div>
-                    <button>
+                    <button className='button按鈕 fc-button'>
                         Follow
                     </button>
                 </div>
