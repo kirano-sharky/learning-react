@@ -1,0 +1,13 @@
+.PostShare-打卡分享 {
+    display: flex;
+    gap: 1rem;
+    background: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.PostShare-打卡分享 > img {
+    border-radius: 50%;
+    width: 3rem;
+    /*height: 3rem*/
+}
