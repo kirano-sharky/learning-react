@@ -9,5 +9,39 @@
 .PostShare-打卡分享 > img {
     border-radius: 50%;
     width: 3rem;
-    /*height: 3rem*/
+    height: 3rem
+}
+
+.PostShare-打卡分享 > div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1rem;
+}
+
+.PostShare-打卡分享 > div > input {
+    background: var(--inputColor);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+
+.PostOption-打卡選項 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Option-打卡 {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    cursor: pointer;
 }
