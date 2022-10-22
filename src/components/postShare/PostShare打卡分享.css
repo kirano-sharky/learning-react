@@ -45,3 +45,29 @@
     display: flex;
     cursor: pointer;
 }
+
+.ps-button {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    font-size: 12px;
+}
+
+.PreviewImage-預覽圖畫 {
+    position: relative;
+}
+
+.PreviewImage-預覽圖畫 > svg {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+
+.PreviewImage-預覽圖畫 > img {
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}

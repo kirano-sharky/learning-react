@@ -10,6 +10,6 @@ export const Follower跟隨者 = [
     {名字: 'cutebear', 用戶名稱: 'cutebear', img: img2},
     {名字: 'Morb', 用戶名稱: "''", img: img3},
     {名字: 'chocomint', 用戶名稱: 'AC0xRPFS001', img: img4},
-    {名字: '超威蓝猫', 用戶名稱: 'SuperBlueCat', img: img5},
+    {名字: '超威蓝猫', 用戶名稱: 'chartreux', img: img5},
     {名字: 'GALA)(Y', 用戶名稱: 'GaLaXy', img: img6},
 ]
