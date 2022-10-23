@@ -46,6 +46,11 @@
     cursor: pointer;
 }
 
+.Option-打卡:hover {
+    background: var(--hrColor);
+    transition: .3s;
+}
+
 .ps-button {
     padding: 5px;
     padding-left: 20px;
@@ -63,6 +68,8 @@
     right: 1rem;
     top: 0.5rem;
     cursor: pointer;
+    background: var(--hrColor);
+    border-radius: 50%;
 }
 
 .PreviewImage-預覽圖畫 > img {

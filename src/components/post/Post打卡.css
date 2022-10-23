@@ -1,0 +1,33 @@
+.profile_頭像 {
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.Post-打卡 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    background: var(--cardColor);
+    border-radius: 1rem;
+}
+
+.Post-打卡 > div {
+    display: flex;
+    gap: 5px;
+}
+
+.Post-打卡 > div > .name名字 {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Post-打卡 > img {
+    width: 100%;
+    max-height: 25rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
