@@ -15,20 +15,21 @@ const Post打卡 = ({情報}) => {
       <img src={情報.img} alt=''/>
 
       <div className="PostProject-打卡主題">
-        <span>Discord 機器人開發日誌 - DAY 10</span>
+        <span>{情報.主題}</span>
       </div>
       
       <div className="PostReact-打卡反應">
-      <img src={情報.likes?Like喜歡: NotLike不喜歡}/>
+      <img src={情報.liked?Like喜歡: NotLike不喜歡}/>
         <img src={Comment留言}/>
         <img src={Share分享}/>
       </div>
 
-      <span>{情報.likes} likes</span>
+      <span className='like喜歡'>{情報.likes} likes</span>
 
-      <div className="Detail-詳情">
-        <span><b>{情報.名字}</b></span>
-        <span>{情報.内容}</span>
+      <div className="PostDetail-打卡詳情">
+        <span><b>{情報.留言者1}</b> {情報.留言1}</span>
+        <span><b>{情報.留言者2}</b> {情報.留言2}</span>
+        <span className='viewAll展開'>View all comments...</span>
       </div>
     </div>
   )

@@ -31,3 +31,40 @@
     object-fit: cover;
     border-radius: 0.5rem;
 }
+
+.Post-打卡 > .PostProject-打卡主題 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Post-打卡 > .PostReact-打卡反應 {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+
+}
+
+.Post-打卡 > .like喜歡 {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Post-打卡 > .PostDetail-打卡詳情 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Post-打卡 > .PostDetail-打卡詳情 > span > b {
+    cursor: pointer;
+}
+
+.Post-打卡 > .PostDetail-打卡詳情 > .viewAll展開 {
+    cursor: pointer;
+    color: var(--gray);
+    font-size: 15px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
