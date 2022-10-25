@@ -5,7 +5,6 @@ import { UilBell } from '@iconscout/react-unicons'
 import { UilMessage } from '@iconscout/react-unicons'
 import { UilSetting } from '@iconscout/react-unicons'
 import { UilChartBar } from '@iconscout/react-unicons'
-import Htag from '../../img/htag.png'
 import TrendCard推薦卡 from '../trendCard/TrendCard推薦卡'
 
 const RightSide右邊 = () => {
