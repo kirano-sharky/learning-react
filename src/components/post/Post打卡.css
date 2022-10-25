@@ -26,6 +26,8 @@
 }
 
 .Post-打卡 > img {
+    /*width: 100%;
+    max-height: 25rem;*/
     object-fit: cover;
     border-radius: 0.5rem;
 }

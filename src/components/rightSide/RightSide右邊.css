@@ -8,13 +8,18 @@
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
-.icon圖標 > img {
+.icon圖標 > .home > img {
     width: 1.5rem;
     height: 1.5rem;
 }
 
+.icon圖標 > .icon-option:hover {
+    color: var(--gray);
+    transition: .1s;
+}
 
 .s-button {
     height: 3rem;
