@@ -1,0 +1,24 @@
+.RightSide-右邊 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.icon圖標 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon圖標 > img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.s-button {
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+    font-size: 18px;
+}
