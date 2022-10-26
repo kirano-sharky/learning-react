@@ -5,7 +5,7 @@ import { Trend推薦 } from '../../Data/trendsData'
 const TrendCard推薦卡 = () => {
   return (
     <div className="TrendCard-推薦卡">
-        <h3>Trends for you~</h3>
+        <h3>Suggestions for you~</h3>
         {Trend推薦.map((推薦) => {
             return (
                 <div className="trend推薦">

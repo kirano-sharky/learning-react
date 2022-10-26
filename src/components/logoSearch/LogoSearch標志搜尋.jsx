@@ -8,7 +8,7 @@ const LogoSearch標志搜尋 = () => {
     <div className="LogoSearch-標志搜尋">
         <img src={Logo標志} alt=''/>
         <div className="Search-搜尋">
-            <input type="text" placeholder='#Explore'/>
+            <input type="text" placeholder='#EXPLOSION!!!'/>
             <div className="s-icon-s-圖標">
                 <UilSearch></UilSearch>
             </div>
