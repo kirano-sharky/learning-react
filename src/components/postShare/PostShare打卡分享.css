@@ -64,6 +64,7 @@
 }
 
 .PreviewImage-預覽圖畫 > svg {
+    width: 1.5rem;
     position: absolute;
     right: 1rem;
     top: 0.5rem;

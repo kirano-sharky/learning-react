@@ -8,7 +8,7 @@ function App() {
         <div className='blur-背景' style={{top: '-18%', right: '0'}}></div>
         <div className='blur-背景' style={{top: '36%', left: '-8rem'}}></div>
         { /*<Home頁面/>*/ }
-        <Profile頭像/>
+        { <Profile頭像/> }
     </div>
   );
 }

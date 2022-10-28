@@ -7,28 +7,30 @@ const InfoCard介紹卡 = () => {
     <div className="InfoCard-介紹卡">
         <div className="head">
             <h4>Your Info!</h4>
-            <UilPen/>
+            <div className="edit編輯">
+                <UilPen width='2rem' height='1.2rem'/>
+            </div>
         </div>
 
         { /*狀態*/ }
         <div className="info">
-            <span><b>Status</b></span>
+            <span><b>Status </b></span>
             <span>in Relationship</span>
         </div>
 
         { /*城市*/ }
         <div className="info">
-            <span><b>Lives in</b></span>
+            <span><b>Lives in </b></span>
             <span>Malaysia</span>
         </div>
         
         { /*工作*/ }
         <div className="info">
-            <span><b>Works at</b></span>
+            <span><b>Works at </b></span>
             <span>My house</span>
         </div>
 
-        <button className='button按鈕'>Log out!</button>
+        <button className='button按鈕 logoutButton退出按鈕'>Log out!</button>
     </div>
   )
 }

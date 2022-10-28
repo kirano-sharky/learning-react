@@ -26,8 +26,8 @@
 }
 
 .Post-打卡 > img {
-    /*width: 100%;
-    max-height: 25rem;*/
+    max-width: 100%;
+    max-height: 25rem;
     object-fit: cover;
     border-radius: 0.5rem;
 }
@@ -42,11 +42,6 @@
     align-items: flex-start;
     gap: 1rem;
 
-}
-
-.Post-打卡 > .like喜歡 {
-    font-weight: bold;
-    cursor: pointer;
 }
 
 .Post-打卡 > .PostDetail-打卡詳情 {

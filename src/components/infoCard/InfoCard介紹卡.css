@@ -7,3 +7,20 @@
     border-radius: 1rem;
     width: 90%;
 }
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head > .edit編輯:hover {
+    cursor: pointer;
+}
+
+.logoutButton退出按鈕 {
+    width: 7rem;
+    height: 2rem;
+    align-self: flex-end;
+    margin-top: 6rem;
+}

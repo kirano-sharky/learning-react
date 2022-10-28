@@ -24,7 +24,7 @@ const Post打卡 = ({情報}) => {
         <img src={Share分享}/>
       </div>
 
-      <span className='like喜歡'>{情報.likes} likes</span>
+      <span className='like喜歡' style={{fontSize: '16px', fontWeight: 'bold'}}>{情報.likes} likes</span>
 
       <div className="PostDetail-打卡詳情">
         <span><b>{情報.留言者1}</b> {情報.留言1}</span>
