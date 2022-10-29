@@ -1,6 +1,7 @@
 import { Modal, useMantineTheme } from "@mantine/core";
+import PostShare打卡分享 from "../postShare/PostShare打卡分享";
 
-function ProfileModal頭像模態({ modalOpened, setModalOpened }) {
+function ShareModal分享模態({ modalOpened, setModalOpened }) {
   const theme = useMantineTheme();
 
   return (
@@ -16,62 +17,9 @@ function ProfileModal頭像模態({ modalOpened, setModalOpened }) {
       opened={modalOpened}
       onClose={() => setModalOpened(false)}
     >
-      <form className="infoForm">
-        <h3>Your info</h3>
-
-        <div>
-          <input
-            type="text"
-            className="infoInput"
-            name="FirstName"
-            placeholder="First Name"
-          />
-
-          <input
-            type="text"
-            className="infoInput"
-            name="LastName"
-            placeholder="Last Name"
-          />
-        </div>
-
-        <div>
-          <input
-            type="text"
-            className="infoInput"
-            name="worksAT"
-            placeholder="Works at"
-          />
-        </div>
-
-        <div>
-          <input
-            type="text"
-            className="infoInput"
-            name="livesIN"
-            placeholder="LIves in"
-          />
-
-          <input
-            type="text"
-            className="infoInput"
-            name="Country"
-            placeholder="Country"
-          />
-        </div>
-
-        <div>
-          <input
-            type="text"
-            className="infoInput"
-            placeholder="RelationShip Status"
-          />
-        </div>
-
-        <button className="button按鈕 infoButton介紹按鈕">Update</button>
-      </form>
+    <PostShare打卡分享/>
     </Modal>
   );
 }
 
-export default ProfileModal頭像模態;
+export default ShareModal分享模態;
